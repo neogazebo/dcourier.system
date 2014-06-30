@@ -1,0 +1,14 @@
+/index.php
+/assets
+/protected/config/common.php
+/protected/data
+/protected/runtime
+*~
+/.komodotools/
+/.idea/
+/protected/vendors
+/protected/config/common.php
+/nbproject
+/pdf
+/protected/views/.directory
+/media

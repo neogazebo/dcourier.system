@@ -1,0 +1,262 @@
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*
+overide themes/name-themes/ui.css
+*/
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+
+h4.ui-box-header{
+	font-size: 130%;
+}
+.portlet-title{
+	font-weight: bold;
+
+}
+#page_wrapper #page-header #page-header-wrapper #top a.logo {
+	background: none !important;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-indent: 0 !important;
+	padding-top: 15px;
+	width: 400px;
+	height: 35px;
+}
+#page-header, #page-header #page-header-wrapper, #page-header #page-header-wrapper #navigation {
+	position: relative;
+	z-index: 900 !important;
+}
+#nav {
+	float: left;
+	height: 0;
+	list-style: none outside none;
+	margin: 0;
+	padding: 4px 0 !important;
+}
+#nav-bar {
+	background: none !important;
+	border-top: 0px !important;
+	padding: 0 30px;
+}
+.hastable .summary {
+	margin: 0 0 5px;
+	text-align: right !important;
+}
+
+.pager{
+	padding-bottom: 15px !important;
+	padding-top: 15px !important;
+	text-align: right;
+}
+.ui-autocomplete{
+	width: 250px; 
+}
+
+.subcolumns { display:table; width:100%; table-layout:fixed; }
+.subcolumns_oldgecko { width: 100%; float:left; }
+
+.c20l, .c25l, .c33l, .c40l, .c38l, .c50l, .c60l, .c62l, .c66l, .c75l, .c80l, .c30l, .c15l, .c70l,.c18l,.c82l,.c85l,.c12l,.c86l,.c48l { float:left; }
+.c20r, .c25r, .c33r, .c40r, .c38r, .c50r, .c60r, .c66r, .c62r, .c75r, .c80r, .c30r, .c70r, .c15r ,.c18r,.c82r,.c85r,.c12r,.c86r,.c48r{ float:right; margin-left:-5px; }
+
+.c12l, .c12r { width:12%; }
+.c86l, .c86r { width:86%; }
+.c15l, .c15r { width:15%; }
+.c85l, .c85r { width:85%; }
+.c20l, .c20r { width:20%; }
+.c40l, .c40r { width:40%; }
+.c48l, .c48r { width:48%; }
+.c60l, .c60r { width:60%; }
+.c80l, .c80r { width:80%; }
+.c25l, .c25r { width:25%; }
+.c33l, .c33r { width:33.333%; }
+.c50l, .c50r { width:50%; }
+.c66l, .c66r { width:66.666%; }
+.c75l, .c75r { width:75%; }
+.c38l, .c38r { width:38.2%; }
+.c62l, .c62r { width:61.8%; }
+.c70l, .c70r { width:70%; }
+.c30l, .c30r { width:30%; }
+.c18l, .c18r { width:18%; }
+.c82l, .c82r { width:82%; }
+
+.subc  { padding:0 0.5em; }
+.subcl {
+	padding:0;
+	display:block;
+	clear:both;
+	position:relative;
+}
+.subcr {
+	padding:0;
+	display:block;
+	clear:both;
+	position:relative;
+}
+
+#items td,#costs td,.tp td,.tp th{
+	text-align: center;
+	font-size:0.9em;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+	position: relative;
+	display: block;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+
+.row-response-msg {
+	padding:10px 10px 10px 10px;
+	font-size:0.96em;
+}
+
+.row-response-msg span {
+	display:block;
+	font-weight:bold;
+	padding:0 0 4px;
+}
+.row-response-msg.success {
+	background:#e9f9e5!important;
+	color:#1c8400;
+	border:#b4e8aa solid 1px;
+}
+.row-response-msg.warning {
+	background:#fdd845!important;
+	color:orangered;
+	border:orangered solid 1px;
+}
+.row-response-msg.error {
+	background:salmon!important;
+	color:darkred;
+	border:darkred solid 1px;
+}
+
+.comment{
+	display: block; 
+	background-color: azure; 
+	padding: 10px 0 10px 5px ;
+	width: 900px;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 5px
+}
+
+.link_btn a:hover{
+	text-decoration: underline;
+}
+
+.view .view-data{
+	display: block;
+	position: relative;
+	width: 50%;
+}
+
+.shipment-data .view .view-data{
+	width: 100%;
+}
+
+.shipment-data .data{
+	font-weight: bold;
+}
+
+.view-data .label,.view-data .data{
+	display: block;
+	position: relative;
+	width: 40%;
+	float: left;
+}
+
+.o-box {
+	overflow: auto;
+	width: 500px;
+	height: 100px;
+	background-color: #FDFDFD;
+}
+
+#all-rates tr.used{
+	background: #76C376;
+}
+
+#InquiryForm_service_name:hover{
+	cursor: pointer;
+}
+
+.form .item-head div, .form .item-container div,#ship-rate .cost-head div,#ship-rate .cost-container div {
+	display: block;
+	float: left;
+	padding-right: 16px;
+	position: relative;
+}
+
+.form .item-head, #ship-rate .cost-head{
+	font-size: 80%;
+}
+
+.form .i-title {width: 211px;}
+.form .i-value {width: 121px;}
+.form .i-weight {width: 76px;}
+.form .i-length {width: 68px;}
+.form .i-width {width: 61px;}
+.form .i-height {width: 66px;}
+.form .i-volmat {width: 102px;}
+
+#discount-grid.hastable td{
+	padding: 1px 8px!important;
+}
+
+#discount-grid.hastable input{
+	margin-bottom: 0!important;
+}
+
+sub{
+	font-size: 10px;
+}
+
+#sortable {width: 200px;margin-top: 10px}
+#sortable .ui-state-default{padding: 5px 0 5px 5px;}
+#sortable .selected{ background: #316ac5;color: #EEE}
